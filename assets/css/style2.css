@@ -1,0 +1,218 @@
+/*************************************************************
+Project Name :LMS
+Design by: Sahab Uddin
+Date:10-06-2020
+Project Section:
+	1.Top Bar
+	2.Header
+	3.Slider
+	4.About
+***************************************************************/
+
+/**************************************************************
+			Base CSS Start
+****************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+/**************************************************************
+			Base CSS End
+****************************************************************/
+/**************************************************************
+			Common CSS Start
+****************************************************************/
+.second_bg_color{
+	background-color: #56ab2f;
+}
+.second_color{
+	color: #56ab2f;
+}
+.text_d_none{
+	text-decoration: none;
+}
+.list_none{
+	list-style-type: none;
+}
+.first_bg_color{
+	background-color: #fefeff;
+}
+.first_color{
+	color: #fefeff;
+}
+.nav-link{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+/*.nav-link:active{
+	color: #56ab2f !important;
+}*/
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+.nav-link:hover{
+	color: #56ab2f !important;
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.col-12{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.custom_margin{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/**************************************************************
+			Common CSS End
+****************************************************************/
+
+/**************************************************************
+			Top Bar Section CSS Start
+****************************************************************/
+.top_bar{
+	height: 50px;
+	line-height: 50px;
+}
+.top_bar ul {
+	line-height: 50px;
+}
+.top_bar ul li{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+.top_bar ul li:nth-child(1){
+	padding-left: 0px !important;
+	padding-right: 5px;
+	margin-right: 0px !important;
+}
+.top_bar ul li a{
+	color: #fff;
+}
+.top_log span{
+	border-right: 2px solid #fff;
+	height: 30px;
+	margin-top: 10px;
+}
+.top_bar ul li a:hover{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+/**************************************************************
+			Top Bar Section CSS End
+****************************************************************/
+.top_bg{
+	background: rgba(254,255,255,0.5);
+}
+.nav-link{
+	color: #000;
+}
+/**************************************************************
+			Header Section CSS Start
+****************************************************************/
+.staky{
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 2;
+}
+/**************************************************************
+			Header Section CSS End
+****************************************************************/
+/**************************************************************
+			course details picture css start
+****************************************************************/
+.custom_bg_student{
+	background-image: url(../img/course.png);
+}
+.says{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.text-center{
+	color: white;
+}
+.color{
+	color: green;
+}
+/**************************************************************
+			course details picture css end
+****************************************************************/
+/**************************************************************
+			course details section css start
+****************************************************************/
+
+.text{
+	padding-top: 100px;
+}
+.card{
+	margin-top: 50px;
+}
+.card-header{
+	background-color: #339900;
+	color: white;
+	padding-left: 35%;
+}
+.padd{
+	padding-left: 30%;
+}
+.padd1{
+	padding-left: 45%;
+}
+.padd2{
+	padding-left: 40%;
+}
+.padd3{
+	padding-left: 27%;
+
+}
+.padd4{
+	padding-left: 27%;
+}
+.padd5{
+	padding-left: 38%;
+}
+.padd6{
+
+	padding-left: 13%;
+}
+.button_group{
+	padding-left: 100px;
+}
+.nav-link{
+	padding-top: 0%;
+}
+.position-relative{
+	
+	
+	margin-top: 20px;
+	z-index: 111;
+}
+.nn{
+	margin-top: 50px;
+}
+.mm{
+	margin-top: 30px;
+}
+.ll{
+	color: black;
+	padding-left: 10px;
+}
+
+/**************************************************************
+			course details section css end
+****************************************************************/
+/**************************************************************
+			about instructor section css start
+****************************************************************/
+.instructor{
+	margin-top: 3%;
+}

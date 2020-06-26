@@ -548,6 +548,50 @@ input[type=email]::placeholder {
 	height: 48%;
 }
 /******about bananr end   **********************/
+/******Contact us section start   **********************/
+.custom-color{
+	color: gray;
+}
+.contact-section{
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.list-group li{
+    padding-top: 10px;
+    list-style: none;
+}
+.list-group a {
+    color: gray;
+}
+.list-group a i{
+    color: white;
+    background-color: #56ab2f;
+    line-height: 15px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.btn-customize{
+	border: 1px solid #56ab2f;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	
+    
+}
+.btn-customize:hover{
+	color:black ;
+    background-color:gray;
+}
+.google-maps{
+	height: 100%;
+	width: 100%;
+}
+
+/******Contact us section end   **********************/
 
 
 /**********************************************************************************************
