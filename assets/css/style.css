@@ -591,7 +591,17 @@ input[type=email]::placeholder {
 	width: 100%;
 }
 
+
 /******Contact us section end   **********************/
+/******erorr us section start   **********************/
+.erorr{
+	padding-left: 174px;
+}
+.image-erorr{
+	padding:4rem !important;
+	padding-left: 8rem !important;
+}
+/******erorr us section end   **********************/
 
 
 /**********************************************************************************************
